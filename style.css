@@ -1,3 +1,33 @@
+#move{ position:relative;
+
+}
+
+#move video{ height: 100vh;
+    width:100%;
+    background-position: absolute;
+    object-fit: cover;
+    z-index:10;
+}
+
+#move .content {
+    background:rgba (0,0,0,0.5);
+    height:100%;
+    width:100%;
+    z-index:20;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#move .content h6 { 
+    color: rgb(170, 170, 170);
+    font-weight: 600;
+    font-size: 100px;
+    padding: 200px 50px 200px 50px;
+}
+
+
 img {
     max-width: 100%;
     padding: -10%;
