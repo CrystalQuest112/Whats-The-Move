@@ -1,0 +1,65 @@
+img {
+    max-width: 100%;
+    padding: -10%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0 auto;
+    background: rgb(43, 52, 194);
+}
+
+p {
+    color: white;
+    background-color: rgb(43, 52, 194);
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+    display: center;
+    padding: 175px 175px 150px 175px;
+    max-width: 1600px;
+    border-radius: none;
+    font-family: helvetica;
+    margin: 0 auto;
+    line-height: .5in;
+}
+
+button {
+    color: rgb(4, 18, 91);
+    background-color: white;
+    border-radius: 60px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(251, 70, 94, 0.735);
+    cursor: pointer;
+}
+
+footer {
+    display: center;
+    bottom: 0;
+    background-color: rgb(239, 242, 255);
+    color: rgba(19, 0, 143, 0.855);
+    padding: none;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: none;
+    padding-top: -20%;
+}
